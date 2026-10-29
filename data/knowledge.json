@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "category": "jam_pelayanan",
+    "question": "Jam pelayanan kelurahan",
+    "keywords": [
+      "jam pelayanan",
+      "jam buka",
+      "jam operasional",
+      "waktu pelayanan",
+      "kelurahan buka",
+      "kantor buka",
+      "kapan buka",
+      "jam kerja kelurahan",
+      "jam tutup",
+      "kantor tutup"
+    ],
+    "answer": "Jam pelayanan kelurahan buka pada pukul 09:00 - tutup pada pukul 17:00"
+  },
+  {
+    "id": 2,
+    "category": "surat_pengantar",
+    "question": "Persyaratan surat pengantar",
+    "keywords": [
+      "syarat surat pengantar",
+      "persyaratan surat pengantar",
+      "dokumen surat pengantar",
+      "berkas surat pengantar",
+      "cara membuat surat pengantar",
+      "mengurus surat pengantar",
+      "bikin surat pengantar",
+      "surat pengantar perlu apa",
+      "surat pengantar bawa apa",
+      "syarat pengajuan surat"
+    ],
+    "answer": "Persyaratan surat pengantar bergantung pada jenis layanan. Hubungi petugas untuk memperoleh daftar persyaratan resmi."
+  },
+  {
+    "id": 3,
+    "category": "surat_kematian",
+    "question": "Persyaratan surat kematian",
+    "keywords": [
+      "syarat surat kematian",
+      "persyaratan surat kematian",
+      "dokumen surat kematian",
+      "berkas surat kematian",
+      "cara membuat surat kematian",
+      "mengurus surat kematian",
+      "bikin surat kematian",
+      "surat kematian perlu apa",
+      "surat kematian bawa apa"
+    ],
+    "answer": "Persyaratan surat kematian bergantung pada jenis layanan. Hubungi petugas untuk memperoleh daftar persyaratan resmi."
+  },
+  {
+    "id": 4,
+    "category": "domisili",
+    "question": "Informasi surat keterangan domisili",
+    "keywords": [
+      "surat keterangan domisili",
+      "surat domisili",
+      "syarat surat domisili",
+      "persyaratan domisili",
+      "dokumen surat domisili",
+      "cara membuat surat domisili",
+      "mengurus surat domisili",
+      "bikin surat domisili",
+      "pengajuan surat domisili",
+      "keterangan tempat tinggal"
+    ],
+    "answer": "Informasi persyaratan dan prosedur surat keterangan domisili perlu dikonfirmasi melalui petugas kelurahan."
+  },
+  {
+    "id": 5,
+    "category": "pengaduan",
+    "question": "Cara menyampaikan pengaduan",
+    "keywords": [
+      "cara pengaduan",
+      "cara menyampaikan pengaduan",
+      "melaporkan keluhan",
+      "menyampaikan keluhan",
+      "lapor kelurahan",
+      "pengaduan warga",
+      "kanal pengaduan",
+      "tempat pengaduan",
+      "kontak pengaduan",
+      "cara melapor"
+    ],
+    "answer": "Sampaikan pengaduan melalui kanal pengaduan resmi yang disediakan oleh kelurahan."
+  },
+  {
+    "id": 6,
+    "category": "kontak",
+    "question": "Kontak kelurahan",
+    "keywords": [
+      "kontak kelurahan",
+      "nomor telepon kelurahan",
+      "nomor kelurahan",
+      "telepon kelurahan",
+      "hubungi kelurahan",
+      "nomor kontak",
+      "kontak kantor",
+      "alamat kelurahan",
+      "informasi kontak",
+      "whatsapp kelurahan"
+    ],
+    "answer": "Gunakan informasi kontak yang tercantum pada kanal resmi kelurahan."
+  }
+]
