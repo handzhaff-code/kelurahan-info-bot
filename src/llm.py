@@ -16,8 +16,10 @@ def llm_Api():
     client = genai.Client(api_key=API_KEY)
     return client
 
-def llm_function(prompt, client):
-    geminiAnswer = client.models.generate_content(
+def llm_function(prompt):
+    createClient = llm_Api()
+
+    geminiAnswer = createClient.models.generate_content(
     model="gemini-3.5-flash-lite",
     contents=prompt
     ) 

@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "A001",
     "category": "jam_pelayanan",
     "question": "Jam pelayanan kelurahan",
     "keywords": [
@@ -18,7 +18,7 @@
     "answer": "Jam pelayanan kelurahan buka pada pukul 09:00 - tutup pada pukul 17:00"
   },
   {
-    "id": 2,
+    "id": "A002",
     "category": "surat_pengantar",
     "question": "Persyaratan surat pengantar",
     "keywords": [
@@ -36,7 +36,7 @@
     "answer": "Persyaratan surat pengantar bergantung pada jenis layanan. Hubungi petugas untuk memperoleh daftar persyaratan resmi."
   },
   {
-    "id": 3,
+    "id": "A003",
     "category": "surat_kematian",
     "question": "Persyaratan surat kematian",
     "keywords": [
@@ -53,7 +53,7 @@
     "answer": "Persyaratan surat kematian bergantung pada jenis layanan. Hubungi petugas untuk memperoleh daftar persyaratan resmi."
   },
   {
-    "id": 4,
+    "id": "A004",
     "category": "domisili",
     "question": "Informasi surat keterangan domisili",
     "keywords": [
@@ -71,7 +71,7 @@
     "answer": "Informasi persyaratan dan prosedur surat keterangan domisili perlu dikonfirmasi melalui petugas kelurahan."
   },
   {
-    "id": 5,
+    "id": "A005",
     "category": "pengaduan",
     "question": "Cara menyampaikan pengaduan",
     "keywords": [
@@ -89,7 +89,7 @@
     "answer": "Sampaikan pengaduan melalui kanal pengaduan resmi yang disediakan oleh kelurahan."
   },
   {
-    "id": 6,
+    "id": "A006",
     "category": "kontak",
     "question": "Kontak kelurahan",
     "keywords": [
