@@ -7,14 +7,11 @@ from llm import llm_function
 
 # Code
 
-def calculated_score(data):
+def calculated_score(data, question):
 
     while True:
         '''list of dictionaries'''
         score_per_id = {}
-
-        print("===000===")
-        question = input("Masukan pencarian : ")
 
         '''separating dicts from a list of objects'''
         for article in data:
@@ -33,8 +30,7 @@ def calculated_score(data):
             '''out from keyword and word looping'''            
             score_per_id[article.id] = len(matched_word)
 
-        print("===000===")
-        return score_per_id, question
+        return score_per_id
     
 def rank_Articles(score):
     return sorted(
@@ -60,6 +56,8 @@ def get_Top_Candidates(score_Sorted):
     elif len(id_candidates) > 1:
         return "AMBIGOUS", id_candidates 
 
+'''main.py doesn't know about relation of retrive,build prompt, and build context'''
+'''all flow happend in process Search, main.py is only needed to trigger process search function'''
 def process_Search(status, ids, question, data):
     if status == "NOT_FOUND":
         return "Maaf, Pertanyaan anda tidak relevan dengan informasi yang kami punya.. Tolong tanyakan kembali !"
@@ -129,7 +127,7 @@ Article Answer{article.answer}'''
 
     return context
 
-if __name__ == "__main__":
+"""if __name__ == "__main__":
     object = dict_Loop()
     score_per_id, question = calculated_score(object)
 
@@ -138,4 +136,4 @@ if __name__ == "__main__":
 
     response = process_Search(status, ids_candidates, question, object)
 
-    print(response)
+    print(response)"""
