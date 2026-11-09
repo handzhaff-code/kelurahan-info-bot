@@ -1,8 +1,19 @@
-# This only for migration from json !!
+# ------------------=================--------------------
+# FOR INFO !!
+# THIS IS FOR ONLY DATA JSON MIGRATION
+# EXPERIMENTAL 
+# ------------------=================--------------------
+
 import json
 import pprint
 from storage import KNOWLEDGE_JSON
 from connection_dbms import database_connection
+
+# ------------------=================--------------------
+# FOR INFO !!
+# THIS IS FOR ONLY DATA JSON MIGRATION
+# EXPERIMENTAL 
+# ------------------=================--------------------
 
 def json_to_dict(data):
     with open(data, "r", encoding="utf-8") as files:
