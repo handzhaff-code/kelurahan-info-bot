@@ -105,5 +105,437 @@
       "whatsapp kelurahan"
     ],
     "answer": "Gunakan informasi kontak yang tercantum pada kanal resmi kelurahan."
+  },
+    {
+    "id": "A007",
+    "category": "sktm",
+    "question": "Persyaratan surat keterangan tidak mampu (SKTM)",
+    "keywords": [
+      "sktm",
+      "surat keterangan tidak mampu",
+      "surat tidak mampu",
+      "syarat sktm",
+      "persyaratan sktm",
+      "cara membuat sktm",
+      "mengurus sktm",
+      "bikin sktm",
+      "pengajuan sktm",
+      "surat miskin"
+    ],
+    "answer": "Pengajuan SKTM umumnya memerlukan fotokopi KTP, fotokopi Kartu Keluarga, dan surat pengantar RT/RW. Persyaratan lengkap dapat berbeda, silakan konfirmasi ke petugas kelurahan."
+  },
+  {
+    "id": "A008",
+    "category": "sku",
+    "question": "Persyaratan surat keterangan usaha (SKU)",
+    "keywords": [
+      "sku",
+      "surat keterangan usaha",
+      "surat usaha",
+      "syarat sku",
+      "persyaratan surat usaha",
+      "cara membuat surat usaha",
+      "mengurus surat usaha",
+      "bikin surat usaha",
+      "izin usaha kecil",
+      "pengajuan sku"
+    ],
+    "answer": "Pengajuan surat keterangan usaha umumnya memerlukan fotokopi KTP, fotokopi Kartu Keluarga, surat pengantar RT/RW, dan keterangan lokasi usaha. Hubungi petugas untuk daftar persyaratan resmi."
+  },
+  {
+    "id": "A009",
+    "category": "skck",
+    "question": "Surat pengantar untuk pembuatan SKCK",
+    "keywords": [
+      "skck",
+      "pengantar skck",
+      "surat pengantar skck",
+      "syarat pengantar skck",
+      "cara mengurus skck",
+      "bikin skck",
+      "surat catatan kepolisian",
+      "persyaratan skck",
+      "skck perlu apa",
+      "pengajuan skck"
+    ],
+    "answer": "Kelurahan menerbitkan surat pengantar untuk pembuatan SKCK. SKCK sendiri diterbitkan oleh kepolisian. Bawa KTP, Kartu Keluarga, dan surat pengantar RT/RW."
+  },
+  {
+    "id": "A010",
+    "category": "pengantar_nikah",
+    "question": "Surat pengantar nikah",
+    "keywords": [
+      "pengantar nikah",
+      "surat pengantar nikah",
+      "syarat nikah",
+      "persyaratan nikah",
+      "surat nikah kelurahan",
+      "mengurus surat nikah",
+      "bikin pengantar nikah",
+      "dokumen nikah",
+      "pengantar menikah",
+      "form n1"
+    ],
+    "answer": "Kelurahan menerbitkan surat pengantar nikah sebagai persyaratan ke KUA atau instansi terkait. Umumnya diperlukan KTP, Kartu Keluarga, pas foto, dan pengantar RT/RW. Konfirmasi daftar lengkap ke petugas."
+  },
+  {
+    "id": "A011",
+    "category": "ktp",
+    "question": "Pengurusan KTP elektronik",
+    "keywords": [
+      "ktp",
+      "ktp elektronik",
+      "ktp el",
+      "bikin ktp",
+      "buat ktp",
+      "ktp hilang",
+      "ktp rusak",
+      "perpanjang ktp",
+      "syarat ktp",
+      "cara mengurus ktp"
+    ],
+    "answer": "Pencetakan KTP elektronik dilakukan oleh Dinas Kependudukan dan Pencatatan Sipil. Kelurahan dapat membantu memberikan surat pengantar. Hubungi petugas untuk informasi prosedur terbaru."
+  },
+  {
+    "id": "A012",
+    "category": "kartu_keluarga",
+    "question": "Pengurusan Kartu Keluarga (KK)",
+    "keywords": [
+      "kartu keluarga",
+      "kk",
+      "bikin kk",
+      "buat kk",
+      "kk hilang",
+      "kk baru",
+      "ubah data kk",
+      "perubahan kk",
+      "syarat kartu keluarga",
+      "cara mengurus kk"
+    ],
+    "answer": "Pengurusan Kartu Keluarga diproses melalui Dinas Kependudukan dan Pencatatan Sipil. Kelurahan dapat membantu memberikan pengantar dan informasi persyaratan. Silakan hubungi petugas."
+  },
+  {
+    "id": "A013",
+    "category": "akta_kelahiran",
+    "question": "Pengurusan akta kelahiran",
+    "keywords": [
+      "akta kelahiran",
+      "surat kelahiran",
+      "bikin akta kelahiran",
+      "buat akta lahir",
+      "syarat akta kelahiran",
+      "persyaratan akta kelahiran",
+      "akta lahir anak",
+      "cara mengurus akta kelahiran",
+      "akta bayi",
+      "dokumen kelahiran"
+    ],
+    "answer": "Akta kelahiran diterbitkan oleh Dinas Kependudukan dan Pencatatan Sipil. Umumnya diperlukan surat keterangan lahir, KTP dan KK orang tua, serta buku nikah. Hubungi petugas kelurahan untuk pengantar dan info terbaru."
+  },
+  {
+    "id": "A014",
+    "category": "pindah_datang",
+    "question": "Surat pindah dan surat datang",
+    "keywords": [
+      "surat pindah",
+      "surat datang",
+      "pindah domisili",
+      "pindah alamat",
+      "pindah rumah",
+      "pindah kelurahan",
+      "syarat pindah",
+      "mengurus pindah",
+      "warga pindahan",
+      "pendatang baru"
+    ],
+    "answer": "Pengurusan pindah atau datang dimulai dari pengantar RT/RW lalu diteruskan ke kelurahan dan instansi kependudukan. Konfirmasi persyaratan ke petugas kelurahan."
+  },
+  {
+    "id": "A015",
+    "category": "kehilangan",
+    "question": "Surat keterangan kehilangan",
+    "keywords": [
+      "surat kehilangan",
+      "kehilangan dokumen",
+      "dokumen hilang",
+      "lapor kehilangan",
+      "surat hilang",
+      "kehilangan ktp",
+      "kehilangan kk",
+      "kehilangan surat",
+      "pengantar kehilangan",
+      "surat laporan hilang"
+    ],
+    "answer": "Untuk kehilangan dokumen, laporkan dulu ke kepolisian untuk mendapat surat tanda lapor. Kelurahan dapat membantu memberikan pengantar. Hubungi petugas untuk prosedur lengkap."
+  },
+  {
+    "id": "A016",
+    "category": "penghasilan",
+    "question": "Surat keterangan penghasilan",
+    "keywords": [
+      "surat penghasilan",
+      "keterangan penghasilan",
+      "surat gaji",
+      "syarat surat penghasilan",
+      "bikin surat penghasilan",
+      "mengurus surat penghasilan",
+      "surat keterangan gaji",
+      "pengajuan surat penghasilan",
+      "bukti penghasilan",
+      "keterangan pendapatan"
+    ],
+    "answer": "Surat keterangan penghasilan dapat diajukan di kelurahan dengan membawa KTP, Kartu Keluarga, dan pengantar RT/RW. Persyaratan tambahan dapat berbeda, silakan konfirmasi ke petugas."
+  },
+  {
+    "id": "A017",
+    "category": "legalisir",
+    "question": "Legalisir dokumen",
+    "keywords": [
+      "legalisir",
+      "legalisasi",
+      "legalisir dokumen",
+      "legalisir surat",
+      "cap legalisir",
+      "fotokopi legalisir",
+      "legalisir di kelurahan",
+      "bisa legalisir",
+      "syarat legalisir",
+      "pengesahan dokumen"
+    ],
+    "answer": "Layanan legalisir tergantung jenis dokumen dan kewenangan kelurahan. Silakan tanyakan ke petugas apakah dokumen Anda dapat dilegalisir di kelurahan."
+  },
+  {
+    "id": "A018",
+    "category": "biaya",
+    "question": "Biaya pelayanan",
+    "keywords": [
+      "biaya pelayanan",
+      "biaya administrasi",
+      "tarif pelayanan",
+      "bayar surat",
+      "ada biaya",
+      "gratis atau bayar",
+      "berapa biayanya",
+      "harga surat",
+      "pungutan",
+      "biaya pengurusan"
+    ],
+    "answer": "Pelayanan administrasi di kelurahan pada prinsipnya tidak dipungut biaya. Jika ada informasi biaya, pastikan melalui petugas resmi atau kanal resmi kelurahan."
+  },
+  {
+    "id": "A019",
+    "category": "lokasi",
+    "question": "Lokasi dan alamat kantor kelurahan",
+    "keywords": [
+      "lokasi kelurahan",
+      "alamat kantor",
+      "letak kelurahan",
+      "di mana kelurahan",
+      "kantor kelurahan dimana",
+      "peta kelurahan",
+      "arah ke kelurahan",
+      "maps kelurahan",
+      "tempat kelurahan",
+      "cara ke kelurahan"
+    ],
+    "answer": "Alamat lengkap kantor kelurahan dapat dilihat pada kanal resmi kelurahan atau ditanyakan langsung ke petugas."
+  },
+  {
+    "id": "A020",
+    "category": "hari_libur",
+    "question": "Hari pelayanan dan hari libur",
+    "keywords": [
+      "hari pelayanan",
+      "hari kerja",
+      "hari libur",
+      "buka sabtu",
+      "buka minggu",
+      "libur nasional",
+      "tutup hari apa",
+      "buka hari apa",
+      "senin sampai jumat",
+      "jadwal buka"
+    ],
+    "answer": "Pelayanan umumnya dibuka pada hari kerja. Untuk jadwal hari libur atau pelayanan di luar hari kerja, silakan cek pengumuman resmi kelurahan."
+  },
+  {
+    "id": "A021",
+    "category": "bansos",
+    "question": "Informasi bantuan sosial",
+    "keywords": [
+      "bansos",
+      "bantuan sosial",
+      "bantuan pemerintah",
+      "daftar bansos",
+      "syarat bansos",
+      "pkh",
+      "bantuan tunai",
+      "penerima bantuan",
+      "cek bansos",
+      "dtks"
+    ],
+    "answer": "Informasi bantuan sosial dan pendataan penerima dapat ditanyakan ke petugas kelurahan. Pendaftaran biasanya mengikuti ketentuan program dari instansi terkait."
+  },
+  {
+    "id": "A022",
+    "category": "bpjs_kis",
+    "question": "Informasi BPJS Kesehatan dan KIS",
+    "keywords": [
+      "bpjs",
+      "bpjs kesehatan",
+      "kis",
+      "kartu indonesia sehat",
+      "daftar bpjs",
+      "bpjs gratis",
+      "pbi",
+      "bpjs tidak aktif",
+      "aktifkan bpjs",
+      "syarat bpjs"
+    ],
+    "answer": "Pendaftaran dan layanan BPJS Kesehatan dilakukan melalui BPJS Kesehatan. Untuk kepesertaan bantuan pemerintah, kelurahan dapat membantu informasi dan pengantar. Hubungi petugas untuk detail."
+  },
+  {
+    "id": "A023",
+    "category": "pbb",
+    "question": "Informasi Pajak Bumi dan Bangunan (PBB)",
+    "keywords": [
+      "pbb",
+      "pajak bumi bangunan",
+      "bayar pbb",
+      "tagihan pbb",
+      "sppt pbb",
+      "cek pbb",
+      "pajak tanah",
+      "pajak rumah",
+      "info pbb",
+      "jatuh tempo pbb"
+    ],
+    "answer": "Informasi dan pembayaran PBB mengikuti ketentuan pemerintah daerah. Kelurahan dapat membantu informasi umum. Silakan hubungi petugas atau cek kanal resmi pajak daerah."
+  },
+  {
+    "id": "A024",
+    "category": "posyandu",
+    "question": "Informasi posyandu dan layanan kesehatan warga",
+    "keywords": [
+      "posyandu",
+      "jadwal posyandu",
+      "imunisasi",
+      "kesehatan ibu anak",
+      "layanan kesehatan",
+      "puskesmas",
+      "posyandu balita",
+      "posyandu lansia",
+      "program kesehatan",
+      "kegiatan posyandu"
+    ],
+    "answer": "Jadwal posyandu dan program kesehatan warga dapat ditanyakan ke petugas kelurahan atau pengurus posyandu di lingkungan Anda."
+  },
+  {
+    "id": "A025",
+    "category": "rt_rw",
+    "question": "Pengantar RT/RW",
+    "keywords": [
+      "pengantar rt",
+      "pengantar rw",
+      "surat rt",
+      "surat rw",
+      "rt rw",
+      "minta pengantar rt",
+      "ketua rt",
+      "ketua rw",
+      "kontak rt",
+      "tanda tangan rt"
+    ],
+    "answer": "Sebagian besar layanan kelurahan memerlukan surat pengantar dari RT/RW setempat. Silakan urus pengantar ke pengurus RT/RW terlebih dahulu sebelum datang ke kelurahan."
+  },
+  {
+    "id": "A026",
+    "category": "izin_keramaian",
+    "question": "Izin kegiatan atau keramaian warga",
+    "keywords": [
+      "izin keramaian",
+      "izin acara",
+      "izin kegiatan",
+      "izin hajatan",
+      "izin pesta",
+      "surat izin acara",
+      "izin lingkungan",
+      "pengajuan izin acara",
+      "izin tutup jalan",
+      "syarat izin keramaian"
+    ],
+    "answer": "Untuk izin kegiatan atau keramaian, mulai dari pengantar RT/RW lalu informasikan ke kelurahan. Persyaratan dapat berbeda sesuai jenis dan skala acara. Hubungi petugas."
+  },
+  {
+    "id": "A027",
+    "category": "struktur_organisasi",
+    "question": "Struktur organisasi dan pejabat kelurahan",
+    "keywords": [
+      "lurah",
+      "siapa lurah",
+      "nama lurah",
+      "struktur organisasi",
+      "pejabat kelurahan",
+      "sekretaris kelurahan",
+      "staf kelurahan",
+      "perangkat kelurahan",
+      "pegawai kelurahan",
+      "profil kelurahan"
+    ],
+    "answer": "Informasi struktur organisasi dan pejabat kelurahan dapat dilihat pada kanal resmi kelurahan atau ditanyakan ke petugas."
+  },
+  {
+    "id": "A028",
+    "category": "layanan_online",
+    "question": "Layanan online dan antrian",
+    "keywords": [
+      "layanan online",
+      "pelayanan online",
+      "daftar online",
+      "antrian online",
+      "ambil antrian",
+      "booking pelayanan",
+      "bisa online",
+      "pengajuan online",
+      "ajukan lewat bot",
+      "antrian kelurahan"
+    ],
+    "answer": "Ketersediaan layanan online dan sistem antrian mengikuti kebijakan kelurahan. Silakan cek pengumuman resmi atau hubungi petugas untuk info terbaru."
+  },
+  {
+    "id": "A029",
+    "category": "status_pengajuan",
+    "question": "Cek status pengajuan dan lama proses",
+    "keywords": [
+      "cek status",
+      "status pengajuan",
+      "berapa lama proses",
+      "lama pengurusan",
+      "estimasi selesai",
+      "kapan selesai",
+      "surat sudah jadi",
+      "proses surat",
+      "tracking pengajuan",
+      "sudah selesai belum"
+    ],
+    "answer": "Lama proses tergantung jenis layanan dan kelengkapan berkas. Untuk mengecek status pengajuan, hubungi petugas dengan membawa bukti pengajuan."
+  },
+  {
+    "id": "A030",
+    "category": "pengumuman",
+    "question": "Pengumuman dan kegiatan kelurahan",
+    "keywords": [
+      "pengumuman",
+      "info terbaru",
+      "kegiatan kelurahan",
+      "agenda kelurahan",
+      "berita kelurahan",
+      "sosialisasi",
+      "kerja bakti",
+      "musrenbang",
+      "informasi kegiatan",
+      "acara kelurahan"
+    ],
+    "answer": "Pengumuman dan agenda kegiatan kelurahan disampaikan melalui kanal resmi kelurahan. Silakan cek secara berkala untuk informasi terbaru."
   }
 ]

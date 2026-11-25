@@ -1,9 +1,13 @@
 # Core Mechanism
 
 # Module
-from task import answer, relevance_answer, need_to_Clarify
+from task import ins_Social, ins_memory, ins_Gratitude
+from task import instruction as ins
+from task import instruction_2 as ins2
+from task import answer, relevance_answer, need_to_Clarify, answer_null
 from storage import dict_Loop
 from llm import llm_function
+from task import ins_classification
 
 # Code
 
@@ -60,7 +64,18 @@ def get_Top_Candidates(score_Sorted):
 '''all flow happend in process Search, main.py is only needed to trigger process search function'''
 def process_Search(status, ids, question, data):
     if status == "NOT_FOUND":
-        return "Maaf, Pertanyaan anda tidak relevan dengan informasi yang kami punya.. Tolong tanyakan kembali !"
+        Task = answer_null
+        instruction = ins
+        Question = question
+    
+        prompt = f'''
+        INSTRUCTION {instruction},
+        QUESTION {Question},
+        TASK {Task}'''
+        
+        response = llm_function(prompt)
+
+        return response
 
     if status == "UNIQUE":
         Task = answer
@@ -97,21 +112,23 @@ def retrive_Article(data, ids):
 
     return retrived
 
+
 '''question from input user'''
 '''context return from build_Context'''
 '''task from task.py'''
 def build_Prompt(question, context, task):
 
-    instruction = "Jawab pertanyaan sesuai dengan Category dan answer yang tersedia."
+    instruction = ins
+
     Question = question
     articles_Context = context
     Task = task
 
     prompt = f'''
-INSTRUCTION {instruction},
-QUESTION {Question},
-CONTEXT {articles_Context},
-TASK {Task}'''
+    INSTRUCTION {instruction},
+    QUESTION {Question},
+    CONTEXT {articles_Context},
+    TASK {Task}'''
     
     return prompt
 
@@ -127,13 +144,70 @@ Article Answer{article.answer}'''
 
     return context
 
-"""if __name__ == "__main__":
-    object = dict_Loop()
-    score_per_id, question = calculated_score(object)
+def build_prompt_vector(question, contexts):
+    instruction = ins2
+    context = contexts
 
-    sorted_rank = rank_Articles(score_per_id)
-    status, ids_candidates = get_Top_Candidates(sorted_rank)
+    prompt = f"""
+    INSTRUCTION = {instruction}
+    USER QUESTION = {question}
+    CONTEXT = {context}
+    """
+    return prompt
+    
+def build_context_vector(data):
+    context = ""
 
-    response = process_Search(status, ids_candidates, question, object)
+    for e in data:
+        context += f"""
+Article :{e[0]}
+Question :{e[1]}
+Answer :{e[2]}
+Distance Vector :{e[3]}
+"""
+    return context
 
-    print(response)"""
+def classifier_context(question):
+    instruction = ins_classification
+    Question = question
+
+    prompt = f"""
+    User Question = {Question},
+    follow Instruction = {instruction} 
+    """
+    return prompt
+
+def build_question_prompt(question, context): # for build question based on memory context
+    instruction = ins_memory
+    Question = question 
+    memory_context = context
+
+    prompt = f"""
+    Instruksi wajib = {ins_memory},
+    Question Sekarang = {Question},
+    Memory context = {memory_context}.
+    """
+
+    return prompt
+
+def social_prompt(message):
+    ins = ins_Social
+    Question = message
+
+    prompt = f"""
+    Instruction = {ins},
+    Input user = {Question}
+    """
+    return prompt
+
+def gratitude_prompt(message):
+    ins = ins_Gratitude
+    Question = message
+
+    prompt = f"""
+    Instruction = {ins},
+    Input user = {Question}
+    """
+    return prompt
+if __name__ == "__main__":
+    pass

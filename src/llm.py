@@ -1,4 +1,5 @@
 # Module
+import json
 import os
 from google import genai
 from dotenv import load_dotenv
@@ -26,4 +27,43 @@ def llm_function(prompt):
 
     return geminiAnswer.text
 
+def llm_classifier(prompt):
+    createClient = llm_Api()
+
+    geminiAnswer = createClient.models.generate_content(
+        model="gemini-3.5-flash-lite",
+        contents=prompt,
+        config={
+            "response_mime_type": "application/json",
+            "response_schema": {
+                "type": "OBJECT",
+                "properties": {
+                    "classify": {
+                        "type": "STRING",
+                        "enum": [
+                            "social",
+                            "gratitude",
+                            "knowledge"
+                        ]
+                    }
+                },
+                "required": ["classify"]
+            }
+        }
+    )
+
+    return json.loads(geminiAnswer.text)
+
+def llm_embedding(data):
+    createClient = llm_Api()
+
+    embedding_data = createClient.models.embed_content(
+    model="gemini-embedding-2",
+    contents=data
+    )
+
+    return embedding_data.embeddings[0].values
+
+if __name__ == "__main__":
+    pass
 

@@ -1,14 +1,15 @@
-import storage
 import pprint
 import search
-from storage import json_Load
+import embeddings
+from context_sessions import main_context_history
+from llm import llm_function
 from storage import dict_Loop
 from storage import save_offset as sv_offset
 from telegram_api import telegram_API
 from telegram_api import get_Message
 from telegram_api import send_message
 
-def main():
+def main_keywords():
     object_Article = dict_Loop()
 
     '''telegram API integration'''
@@ -27,6 +28,12 @@ def main():
         if response.get("ok"):
             sv_offset(update_id + 1)
             print(f"Updated ID {update_id}")
+
+def main():
+    api_Keys = telegram_API()
+    
+    while True:
+        main_context_history(api_Keys)
 
 if __name__ == "__main__":
     main()

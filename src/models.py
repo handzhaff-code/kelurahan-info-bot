@@ -1,5 +1,3 @@
-
-
 class Article:
     def __init__(self, id, category, question, keywords, answer):
         self.id = id

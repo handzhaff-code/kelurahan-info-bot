@@ -62,6 +62,26 @@ def create_article(data):
         cursor.close()
         connection.close()
 
+def updates_embeddings(id, data):
+    query = """
+    update articles
+    set embedding = %s
+    where id = %s
+    """
+    try:
+        connection = database_connection()
+        cursor = connection.cursor()
+
+        cursor.execute(query, (data, id))
+        connection.commit()
+    except Exception:
+        connection.rollback()
+        raise
+    finally:
+        cursor.close()
+        connection.close()
+
+
 def updates_articles(data):
     # Adjust this input !!!
     connection = database_connection()
@@ -131,7 +151,7 @@ def get_all_article():
         ON category_id = categories.id;"""
     
     connection = database_connection()
-    
+
     cursor = connection.cursor(row_factory=dict_row) # We can set this row_factory into the dict, tuple, list or whatever you want (But cuz i already used dict data for convert to object Article)
     cursor.execute(query)
 
@@ -173,5 +193,4 @@ def save_offset(offset):
         json.dump(state, file, indent=4)
 
 if __name__ == "__main__":
-    data = get_article("A001")
-    pprint(data)
+    pass
